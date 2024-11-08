@@ -10,6 +10,7 @@ public class simpleAutomation {
         // Set the path to the ChromeDriver executable
         System.setProperty("webdriver.chrome.driver", driverPath);
 
+
         // Instantiate ChromeDriver
         WebDriver driver = new ChromeDriver();
 
