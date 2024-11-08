@@ -11,7 +11,6 @@ public class simpleAutomation {
         System.setProperty("webdriver.chrome.driver", driverPath);
 
 
-        // Instantiate ChromeDriver
         WebDriver driver = new ChromeDriver();
 
         driver.manage().window().maximize();
