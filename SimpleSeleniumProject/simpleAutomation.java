@@ -10,16 +10,13 @@ public class simpleAutomation {
         // Set the path to the ChromeDriver executable
         System.setProperty("webdriver.chrome.driver", driverPath);
 
-        // Instantiate ChromeDriver
+
         WebDriver driver = new ChromeDriver();
 
-        // Maximize browser window
         driver.manage().window().maximize();
 
-        // Navigate to Google
         driver.get("https://www.google.com");
 
-        // Find the search input field using the name locator and type "Selenium WebDriver"
         WebElement searchBox = driver.findElement(By.name("q"));
         searchBox.sendKeys("Selenium WebDriver");
 
